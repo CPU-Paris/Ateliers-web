@@ -1,27 +1,21 @@
 <template>
-    <nav>
-      <span>Ile de bréhat</span>
-      <span><nuxt-link to="/">Accueil</nuxt-link></span>
-      <span><nuxt-link to="/reservation">Réservation d'hôtels</nuxt-link></span>
-    </nav>
+  <nav>
+    <span>Ile de bréhat</span>
+    <span><nuxt-link to="/">Accueil</nuxt-link></span>
+    <span><nuxt-link to="/reservation">Réservation d'hôtels</nuxt-link></span>
+  </nav>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
+<style scoped>
 nav span {
-    margin: 1em;
-}
-nav {
-    margin-bottom: 2em; 
-}
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 1em;
 }
 
+nav {
+  margin-bottom: 2em;
+}
 </style>
